@@ -55,7 +55,7 @@ $classes = $stmt->fetchAll();
         <header>
             <h1>Gerenciamento de Cronograma</h1>
             <div class="navigation">
-                <a href="manager_dashboard.php">← Voltar para Dashboard</a>
+                <a href="manager_dashboard.php" class="back-btn">Voltar para Dashboard</a>
                 <a href="logout.php" class="logout-btn">Sair</a>
             </div>
         </header>
